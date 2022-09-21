@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat Alternates", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ body {
+    font-size: 16px;
+    color: #FFF;
+ }
+html {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    height: 100vw;
+    overflow: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: linear-gradient(180deg, #B3D355 0%, rgba(105, 167, 57, 0.9) 100%);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 100%;
+}
+
+.start--game {
+    grid-column: 1 / 3;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin: 20% 0;
+}
+
+.start--game h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.start--game h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.start--game button {
+    background: #DA0069;
+    border: none;
+    border-radius: 15px;
+    color: #BDFF00;
+    padding: 10px 20px;
+
+}
+
+.logo {
+    width: 80px;
+}
+.bg {
+    grid-column: 3 / -1;
+    background: url(../images/bg_mobile.svg) no-repeat;
+    background-position: bottom right;
+}

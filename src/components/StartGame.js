@@ -1,6 +1,5 @@
 import logo from "../images/logo.png";
-// import vector from "../images/vector.png";
-
+import "../styles/StartGame.css";
 
 
 
@@ -13,7 +12,7 @@ function StartGame() {
         <h1>appdentify</h1>
         <button>Start Game</button>
       </div>
-      {/* <img src={vector} alt="" className="vector"/> */}
+      <div className="bg"></div>
     </div>
 
   );
