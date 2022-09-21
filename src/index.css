@@ -1,13 +1,66 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat Alternates", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    background: linear-gradient(180deg, #B3D355 0%, rgba(105, 167, 57, 0.9) 100%);
 }
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-image: url(./images/background.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.start--game {
+    width: 375px;
+    height: 100vh;
+    margin: 40px;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.start--game h4 {
+    font-size: 2rem;
+    color: #FDF5E8;
+
+}
+
+.logo {
+    width: 90px;
+    margin: 0 auto;
+    padding: 20px 0 10px;
+}
+.start--game h1 {
+    font-size: 3.5rem;
+    color: #FDF5E8;
+    font-weight: 700;
+    padding: 0 0 10px;
+}
+
+.start--game button {
+    background: #DA0069;
+    padding: 10px 40px;
+    width: 220px;
+    margin: 0 auto;
+    color: #BDFF00;
+    border-radius: 30px;
+    font-size: 1.2rem;
+}
+
+
+
