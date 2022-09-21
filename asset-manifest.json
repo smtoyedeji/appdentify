@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/appdentify/static/css/main.6ed12382.css",
+    "main.js": "/appdentify/static/js/main.99331348.js",
+    "static/js/787.678c16d6.chunk.js": "/appdentify/static/js/787.678c16d6.chunk.js",
+    "static/media/background.svg": "/appdentify/static/media/background.68f9bbd2d9ba6c44ccb4.svg",
+    "index.html": "/appdentify/index.html",
+    "main.6ed12382.css.map": "/appdentify/static/css/main.6ed12382.css.map",
+    "main.99331348.js.map": "/appdentify/static/js/main.99331348.js.map",
+    "787.678c16d6.chunk.js.map": "/appdentify/static/js/787.678c16d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ed12382.css",
+    "static/js/main.99331348.js"
+  ]
+}
