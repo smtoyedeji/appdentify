@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/appdentify/static/css/main.1d0ba977.css",
-    "main.js": "/appdentify/static/js/main.f572a674.js",
+    "main.css": "/appdentify/static/css/main.0bc69cfd.css",
+    "main.js": "/appdentify/static/js/main.42fa116b.js",
     "static/js/787.678c16d6.chunk.js": "/appdentify/static/js/787.678c16d6.chunk.js",
     "static/media/bg_mobile.svg": "/appdentify/static/media/bg_mobile.04c939c161fb6e4406c0.svg",
     "static/media/background.svg": "/appdentify/static/media/background.68f9bbd2d9ba6c44ccb4.svg",
     "index.html": "/appdentify/index.html",
-    "main.1d0ba977.css.map": "/appdentify/static/css/main.1d0ba977.css.map",
-    "main.f572a674.js.map": "/appdentify/static/js/main.f572a674.js.map",
+    "main.0bc69cfd.css.map": "/appdentify/static/css/main.0bc69cfd.css.map",
+    "main.42fa116b.js.map": "/appdentify/static/js/main.42fa116b.js.map",
     "787.678c16d6.chunk.js.map": "/appdentify/static/js/787.678c16d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d0ba977.css",
-    "static/js/main.f572a674.js"
+    "static/css/main.0bc69cfd.css",
+    "static/js/main.42fa116b.js"
   ]
 }
