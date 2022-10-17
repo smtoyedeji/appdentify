@@ -52,7 +52,7 @@ html {
     border-radius: 15px;
     color: #BDFF00;
     padding: 10px 20px;
-
+    cursor: pointer;
 }
 
 .logo {
