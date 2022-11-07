@@ -54,3 +54,22 @@
     width: 100%;
     padding: 10px;
 }
+
+.final-score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.final-score p {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.final-score img {
+    font-size: 20px;
+    font-weight: 700;
+}

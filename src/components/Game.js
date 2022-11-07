@@ -31,10 +31,10 @@ function Game({ gameData, setGameData }) {
         <h1>appdentify</h1>
       </div>
       {showScore &&
-        <>
+        <div className="final-score">
           <img src={goodJob} alt=""/>
           <p>You identified {score} out of {gameData.length} objects correctly</p>
-        </>
+        </div>
       }
 
       {!showScore &&
@@ -56,7 +56,6 @@ function Game({ gameData, setGameData }) {
           </div>
         </>
       }
-      <button>NEXT</button>
     </div>
   )
 }
