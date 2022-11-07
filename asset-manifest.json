@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/appdentify/static/css/main.636bd0ba.css",
-    "main.js": "/appdentify/static/js/main.ffe97ecc.js",
+    "main.css": "/appdentify/static/css/main.644aeaec.css",
+    "main.js": "/appdentify/static/js/main.76831f57.js",
     "static/js/787.678c16d6.chunk.js": "/appdentify/static/js/787.678c16d6.chunk.js",
     "static/media/welldone.png": "/appdentify/static/media/welldone.6ce2129c7cc09c01022b.png",
     "static/media/bg_mobile.svg": "/appdentify/static/media/bg_mobile.04c939c161fb6e4406c0.svg",
     "static/media/background.svg": "/appdentify/static/media/background.68f9bbd2d9ba6c44ccb4.svg",
     "index.html": "/appdentify/index.html",
-    "main.636bd0ba.css.map": "/appdentify/static/css/main.636bd0ba.css.map",
-    "main.ffe97ecc.js.map": "/appdentify/static/js/main.ffe97ecc.js.map",
+    "main.644aeaec.css.map": "/appdentify/static/css/main.644aeaec.css.map",
+    "main.76831f57.js.map": "/appdentify/static/js/main.76831f57.js.map",
     "787.678c16d6.chunk.js.map": "/appdentify/static/js/787.678c16d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.636bd0ba.css",
-    "static/js/main.ffe97ecc.js"
+    "static/css/main.644aeaec.css",
+    "static/js/main.76831f57.js"
   ]
 }
