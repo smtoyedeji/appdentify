@@ -1,55 +1,84 @@
-//create dummy data
 const data = [
     {
         id: 1,
         name: "orange",
-        image: "./images/orange.png",
+        imageOptions: [
+            {answer: "orange", correct: true},
+            {answer: "banana", correct: false},
+        ]
     },
     {
         id: 2,
-        name: "banana",
-        image: "./images/banana.png",
+        name: "chair",
+        imageOptions: [
+            {answer: "chair", correct: true},
+            {answer: "table", correct: false},
+        ]
     },
     {
         id: 3,
-        name: "table",
-        image: "./images/banana.png",
+        name: "spoon",
+        imageOptions: [
+            {answer: "pot", correct: false},
+            {answer: "spoon", correct: true},
+        ]
     },
     {
         id: 4,
-        name: "chair",
-        image: "./images/banana.png",
+        name: "refrigerator",
+        imageOptions: [
+            {answer: "fork", correct: false},
+            {answer: "refrigerator", correct: true},
+        ]
     },
     {
         id: 5,
-        name: "pot",
-        image: "./images/banana.png",
+        name: "house",
+        imageOptions: [
+            {answer: "phone", correct: false},
+            {answer: "house", correct: true},
+        ]
     },
     {
         id: 6,
-        name: "spoon",
-        image: "./images/banana.png",
+        name: "fork",
+        imageOptions: [
+            {answer: "fork", correct: true},
+            {answer: "spoon", correct: false},
+        ]
     },
     {
         id: 7,
-        name: "fork",
-        image: "./images/banana.png",
+        name: "pot",
+        imageOptions: [
+            {answer: "pot", correct: true},
+            {answer: "orange", correct: false},
+        ]
     },
     {
         id: 8,
-        name: "house",
-        image: "./images/banana.png",
+        name: "table",
+        imageOptions: [
+            {answer: "table", correct: true},
+            {answer: "table", correct: false},
+        ]
     },
     {
         id: 9,
-        name: "fridge",
-        image: "./images/banana.png",
+        name: "refrigerator",
+        imageOptions: [
+            {answer: "banana", correct: false},
+            {answer: "refrigerator", correct: true},
+        ]
     },
     {
         id: 10,
         name: "phone",
-        image: "./images/banana.png",
-    }
+        imageOptions: [
+            {answer: "pot", correct: false},
+            {answer: "phone", correct: true},
+        ]
+    },
 ]
 
-export default data;
+export default data
